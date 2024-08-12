@@ -31,7 +31,6 @@
     list-style-type: none;
 }
 
-
 .nav-btn-one{
     height: 28px;
     width: 80px;
@@ -39,6 +38,14 @@
     border-radius: 10%;
     margin-top: 13px;
     background-color: rgb(235, 230, 230);
+    cursor: pointer;
+    transition-duration: 0.3s;
+    font-weight: 300;
+}
+
+.nav-btn-one:hover{
+    background-color: #e4824c;
+    color: white;
 }
 
 .nav-btn-two{
@@ -49,6 +56,13 @@
     margin-top: 13px;
     background-color: rgb(235, 230, 230);
     color: rgb(0, 0, 0);
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+.nav-btn-two:hover{
+    background-color: #e4824c;
+    color: white;
 }
 
 .nav-btn-three{
@@ -58,6 +72,13 @@
     border-radius: 50%;
     margin-top: 13px;
     background-color: black;
+    color: white;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+.nav-btn-three:hover{
+    background-color: #e4824c;
     color: white;
 }
 
