@@ -1,0 +1,64 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+/* navbar */
+
+.nav-bar{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.nav-logo{
+    margin-top: 12px;
+}
+
+.nav-list{
+    display: flex;
+    margin-top: 17px;
+}
+
+.nav-list a{
+    text-decoration: none;
+    margin-left: 2vw;
+}
+
+.nav-list li{
+    list-style-type: none;
+}
+
+
+.nav-btn-one{
+    height: 28px;
+    width: 80px;
+    border: 0px;
+    border-radius: 10%;
+    margin-top: 13px;
+    background-color: rgb(235, 230, 230);
+}
+
+.nav-btn-two{
+    height: 28px;
+    width: 28px;
+    border: 0px;
+    border-radius: 50%;
+    margin-top: 13px;
+    background-color: rgb(235, 230, 230);
+    color: rgb(0, 0, 0);
+}
+
+.nav-btn-three{
+    height: 28px;
+    width: 28px;
+    border: 0px;
+    border-radius: 50%;
+    margin-top: 13px;
+    background-color: black;
+    color: white;
+}
+
+
